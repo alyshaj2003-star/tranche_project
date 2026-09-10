@@ -12,7 +12,7 @@ not a PDF), an MD5 for files under the size cap (Zotero stores MD5 per
 attachment, so this lets us match drive files to library attachments), and the
 macOS Finder tags on the file (Sha marked triaged folders green / problem
 folders red).
-
+#python3 "/Users/loaner/PycharmProjects/TRANCHE_PROJECT/drive_manifest.py" "/Volumes/MS TRANCHE" --out "/Users/loaner/PycharmProjects/TRANCHE_PROJECT/tranche_manifest.csv" --no-hash
 Usage:
 
     python3 drive_manifest.py "/Volumes/MS TRANCHE" --out tranche_manifest.csv
